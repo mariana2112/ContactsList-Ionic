@@ -1,28 +1,26 @@
 .fundo{
-  --background:#bbcfe2;
+  --background:#1F1F1F;
 }
 
 ion-toolbar{
-  --background:#dde7f0;
+  --background:#252525;
  ion-title{
   font-weight: 700;
-  color: #162937;
+  color: #2871a1;
  }
 }
 
 ion-item{
-  --background:#4a6881;
-  margin: 15px;
-  --border-color: #fff;
-  --border-width: 2px;
-  --border-radius: 20px;
+  --background:#213949;
+  width: 400px;
+margin: 5px;
   h2{
     color: white;
   }
 }
 
 ion-thumbnail{
-  margin: 10px;
+margin: 10px;
   img{
     border-radius: 50px;
     width: 60px;
