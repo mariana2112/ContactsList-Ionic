@@ -1,16 +1,40 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-buttons>
+    <ion-buttons slot="start">
       <ion-back-button></ion-back-button>
     </ion-buttons>
     <ion-title>gabi</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">gabi</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="fundo">
+  <div class="ion-text-center">
+    <img class="img"
+   src="https://www.gannett-cdn.com/presto/2022/05/15/USAT/abdf5cd7-c027-4748-ad4a-7d2fe9cf5736-Harry_Styles_1.jpg?width=592&format=pjpg&auto=webp&quality=70"/>
+ </div>
+ <h2 class="ion-text-center cor">Gabi</h2>
+
+ <div class="ion-text-center">
+   <ion-icon name="call-outline" size="large" class="cor2"></ion-icon>
+ <ion-icon name="chatbox-ellipses-outline"  size="large" class="cor2"></ion-icon>
+ <ion-icon name="logo-whatsapp"  size="large" class="cor2"></ion-icon>
+ </div>
+
+ <ion-card>
+   <ion-card-header>
+     <ion-card-subtitle>Email</ion-card-subtitle>
+   </ion-card-header>
+   <ion-card-content>
+     <ion-icon name="mail-outline"></ion-icon>
+     gabrielasilva@gmail.com
+   </ion-card-content>
+   <ion-card-header>
+     <ion-card-subtitle>Celular</ion-card-subtitle>
+   </ion-card-header>
+   <ion-card-content>
+     <ion-icon name="call-outline" ></ion-icon>
+     +55(14)00000-0000
+   </ion-card-content>
+ </ion-card>
+
 </ion-content>

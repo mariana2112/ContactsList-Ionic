@@ -12,3 +12,23 @@
 ion-toolbar{
   --background:#252525;
 }
+
+.cor{
+  color: white;
+  font-weight: 600;
+}
+.cor2{
+  color: #2871a1;
+  padding: 2vw 7vw;
+}
+
+ion-card{
+  --background:#252525;
+  ion-card-subtitle{
+    color: white;
+  }
+  ion-card-content{
+    color: white;
+  }
+}
+
