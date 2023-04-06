@@ -12,18 +12,24 @@ ion-toolbar{
 
 ion-item{
   --background:#213949;
-  width: 400px;
 margin: 5px;
   h2{
     color: white;
+    margin: 10px;
   }
 }
 
 ion-thumbnail{
-margin: 10px;
   img{
     border-radius: 50px;
     width: 60px;
     height: 60px;
   }
 }
+
+.bt{
+  --border-radius: 20px;
+  --background:#213949;
+}
+
+

@@ -3,6 +3,7 @@
     <ion-title class="ion-text-center">
       Contacts
     </ion-title>
+    <ion-icon name="people-outline"  slot="end" class="iconinicio"></ion-icon>
   </ion-toolbar>
 </ion-header>
 
@@ -14,9 +15,13 @@
         src="https://i.pinimg.com/474x/f4/6a/21/f46a21212fbb188807047a0daf43066f.jpg"
       />
     </ion-thumbnail>
-    <ion-label>
+    <ion-label class="name">
       <h2><strong>Ari Bts</strong></h2>
     </ion-label>
+    <ion-button class="bt">
+     <ion-icon name="call-outline" ></ion-icon>
+   </ion-button>
+   <ion-button  class="bt"> <ion-icon name="ellipsis-vertical-outline"></ion-icon></ion-button>
   </ion-item>
 
   <ion-item (click)="pagRoute('../duda')">
@@ -28,6 +33,10 @@
     <ion-label>
       <h2><strong>Duda</strong></h2>
     </ion-label>
+    <ion-button  class="bt">
+     <ion-icon name="call-outline"></ion-icon>
+   </ion-button>
+   <ion-button  class="bt" > <ion-icon name="ellipsis-vertical-outline"></ion-icon></ion-button>
   </ion-item>
 
   <ion-item (click)="pagRoute('../gabi')">
@@ -39,6 +48,10 @@
     <ion-label>
       <h2><strong>Gabi</strong></h2>
     </ion-label>
+    <ion-button  class="bt">
+     <ion-icon name="call-outline"></ion-icon>
+   </ion-button>
+   <ion-button   class="bt"> <ion-icon name="ellipsis-vertical-outline"></ion-icon></ion-button>
   </ion-item>
 
   <ion-item (click)="pagRoute('../vi')">
@@ -50,6 +63,10 @@
     <ion-label>
       <h2><strong>Vi</strong></h2>
     </ion-label>
+    <ion-button  class="bt" >
+     <ion-icon name="call-outline"></ion-icon>
+   </ion-button>
+   <ion-button  class="bt"  > <ion-icon name="ellipsis-vertical-outline"></ion-icon></ion-button>
   </ion-item>
 
   <ion-item (click)="pagRoute('../vitor')">
@@ -61,7 +78,13 @@
     <ion-label>
       <h2><strong>Vitor</strong></h2>
     </ion-label>
+    <ion-button  class="bt" >
+     <ion-icon name="call-outline"></ion-icon>
+   </ion-button>
+   <ion-button  class="bt" > <ion-icon name="ellipsis-vertical-outline"></ion-icon></ion-button>
   </ion-item>
+
+
 
 
 
